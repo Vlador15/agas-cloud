@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .love {
+            padding: 2rem;
+            border-radius: 5px;
+            z-index: 10;
+            font-size: 24px;
+            color: #fff;
+        }
+
+        #canvas-basic {
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        .photos {
+            z-index: 10; 
+            display: none;
+        }
+        .photo { 
+            width: 130px; 
+            height: 130px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas-basic"></canvas> 
+    <div class="block">
+        <!-- <h1 class="love">I LOVE YOU</h1> -->
+        <pre class="love">...</pre>
+        <div class="photos">
+            <img class="photo" src="https://sun9-72.userapi.com/impg/sdzOUKeRaWhXAP53-s6onR2hLS-eHXEn_ZToUA/jf10zxxPjBY.jpg?size=719x1072&quality=96&sign=231d6849728925ed8095450018ca3073&type=album" alt="">
+            <img class="photo" src="https://sun9-66.userapi.com/impg/ywqrFx7e3rn0DCXNuWt-n76DByvHKEGwwvDgYw/Hd3bbNTA4_I.jpg?size=1440x1920&quality=95&sign=390f2d371f2dec231eb6c62c70486d7d&type=album" alt="">
+        
+        </div>
+    </div> 
+     
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/granim/1.1.1/granim.min.js'></script>
+    <script> 
+        var granimInstance = new Granim({
+            element: '#canvas-basic',
+            name: 'basic-gradient',
+            direction: 'left-right', // 'diagonal', 'top-bottom', 'radial'
+            opacity: [1, 1],
+            isPausedWhenNotInView: true,
+            states : {
+                "default-state": {
+                    gradients: [
+                        ['#AA076B', '#61045F'],
+                        ['#02AAB0', '#00CDAC'],
+                        ['#DA22FF', '#9733EE']
+                    ]
+                }
+            }
+        });
+
+        const text = [
+            'Ты у меня одна,\n',
+            'Словно в ночи луна,\n',
+            'Словно в году весна,\n',
+            'Словно в степи сосна\n',
+            '\n\n',
+            'Тебя одну я люблю,\n',
+            '&#10084; I LOVE YOU &#10084;\n',
+            '\n\n\n',
+            '  Оля + Влад\n',
+            '      =\n',
+            '&#10084; вместе навсегда &#10084;',
+        ];
+        let line = 0;
+        let count = 0;
+        let result = '';
+        function typeLine() {
+            let interval = setTimeout(() => {
+                result += text[line][count]
+                document.querySelector('pre').innerHTML = result +'|';
+                count++;
+                if (count >= text[line].length) {
+                    count = 0;
+                    line++;
+                    if (line == text.length) {
+                        clearTimeout(interval);
+                        document.querySelector('pre').innerHTML =result;
+                        document.querySelector('.photos').style.display = 'block';
+                        return true;
+                    }
+                }
+                typeLine();
+            }, 200)
+        }
+        typeLine();
+
+    </script>
+</body>
+</html>

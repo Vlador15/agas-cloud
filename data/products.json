@@ -1,0 +1,64 @@
+[
+    {
+        "discountBool": true,
+        "ru": {
+            "title": "Подписка: lite",
+            "time": "1 месяц",
+            "currency": "RUB",
+            "currency_text": "руб.",
+            "description": "Отображение номера телефона, Приоритет в поиске, 2 пробных урока",  
+            "price": "6000"
+        },
+        "en": {
+            "currency": "USD",
+            "currency_text": "$",
+            "price": "80",
+            "title": "Subscription: lite",
+            "description": "Phone number display, Priority in search, 2 trial lessons",   
+            "time": "1 month"
+        },
+        "he": {
+            "currency": "ILS",
+            "currency_text": "₪",
+            "price": "250",
+            "title": "מנוי: lite",
+            "description": "הצגת מספר טלפון , עדיפות בחיפוש, 2 שיעורי ניסיון",    
+            "time": "1 חודש"
+        },
+        "discount": 90,
+        "days": 30,
+        "unix_time": 2592000000,
+        "id": 1
+    }, 
+    { 
+        "discountBool": true,
+        "ru": {
+            "title": "Подписка: pro",
+            "time": "3 месяца",
+            "currency": "RUB",
+            "currency_text": "руб.",
+            "description": "Отображение номера телефона, Приоритет в поиске, 6 пробных уроков",   
+            "price": "18000"
+        },  
+        "en": {
+            "currency": "USD",
+            "currency_text": "$",
+            "price": "240",
+            "title": "Subscription: pro",
+            "description": "Phone number display, Priority in search, 6 trial lessons",    
+            "time": "3 months"
+        },
+        "he": {
+            "currency": "ILS",
+            "currency_text": "₪",
+            "price": "750",
+            "title": "מנוי: pro",
+            "description": "הצגת מספר טלפון , עדיפות בחיפוש, 6 שיעורי ניסיון",    
+            "time": "3 חודשים"
+        }, 
+        "discount": 90,
+        "days": 90,
+        "unix_time": 7776000000,
+        "id": 2
+    }
+]

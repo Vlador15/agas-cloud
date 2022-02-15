@@ -1,0 +1,347 @@
+[
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "מתמטיקה תיכון 3 יח"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "מתמטיקה תיכון 4 יח"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "מתמטיקה תיכון 5 יחידות"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "אלגברה"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "חדוא 1"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "חדוא 2"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "חדוא 3"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "אינפי 1"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "אינפי 2"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "אינפי 3"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "תורת הקבוצות"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "קומבינטוריקה"
+    },
+    {
+        "language": "he",
+        "categoryName": "מתמטיקה",
+        "name": "הסתברות"
+    },
+
+
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "מבוא למיקרו כלכלה"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "מיקרו 1"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "מיקרו 2"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "מיקרו 3"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "מבוא למאקרו כלכלה"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "מאקרו 1"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "מאקרו 2"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "מאקרו 3"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "כלכלה הנדסית"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "כלכלה ציבורית"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "כלכלה עירונית"
+    },
+    {
+        "language": "he",
+        "categoryName": "כלכלה",
+        "name": "כלכלת ישראל"
+    },
+
+
+    {
+        "language": "he",
+        "categoryName": "חשבונאות",
+        "name": "חשבונאות פיננסית"
+    },    
+    {
+        "language": "he",
+        "categoryName": "חשבונאות",
+        "name": "חשבונאות ניהולית"
+    },    
+    {
+        "language": "he",
+        "categoryName": "חשבונאות",
+        "name": "חשבונאות ניהולית מתקדמת"
+    },    
+
+
+    {
+        "language": "he",
+        "categoryName": "סטטיסטיקה",
+        "name": "מבוא לסטטיסטיקה"
+    },
+    {
+        "language": "he",
+        "categoryName": "סטטיסטיקה",
+        "name": "סטטיסטיקה א"
+    },
+    {
+        "language": "he",
+        "categoryName": "סטטיסטיקה",
+        "name": "סטטיסיקה ב"
+    },
+    {
+        "language": "he",
+        "categoryName": "סטטיסטיקה",
+        "name": "אקונומטריקה"
+    },
+    {
+        "language": "he",
+        "categoryName": "סטטיסטיקה",
+        "name": "שיטות מחקר"
+    },
+    {
+        "language": "he",
+        "categoryName": "סטטיסטיקה",
+        "name": "אמידה והשערות"
+    },
+    {
+        "language": "he",
+        "categoryName": "סטטיסטיקה",
+        "name": "סטטיסטיקה תיכון 3 יח"
+    },
+    {
+        "language": "he",
+        "categoryName": "סטטיסטיקה",
+        "name": "סטטיסטיקה תיכון 4 יח"
+    },
+    {
+        "language": "he",
+        "categoryName": "סטטיסטיקה",
+        "name": "סטטיסטיקה תיכון 5 יח"
+    },
+
+
+    {
+        "language": "he",
+        "categoryName": "מימון",
+        "name": "ניהול פיננסי"
+    },
+    {
+        "language": "he",
+        "categoryName": "מימון",
+        "name": "מימון"
+    },
+    {
+        "language": "he",
+        "categoryName": "מימון",
+        "name": "מימון פירמה"
+    },
+    {
+        "language": "he",
+        "categoryName": "מימון",
+        "name": "נגזרים פיננסיים"
+    },
+    {
+        "language": "he",
+        "categoryName": "מימון",
+        "name": "שוק ההון"
+    },
+    {
+        "language": "he",
+        "categoryName": "מימון",
+        "name": "מקצואית א"
+    },
+    {
+        "language": "he",
+        "categoryName": "מימון",
+        "name": "מקצועית ב"
+    },
+
+
+    {
+        "language": "he",
+        "categoryName": "חקר ביצועים",
+        "name": "מודלים דטרמיניסטיים"
+    },
+    {
+        "language": "he",
+        "categoryName": "חקר ביצועים",
+        "name": "מודלים סטוכסטיים"
+    },
+    {
+        "language": "he",
+        "categoryName": "חקר ביצועים",
+        "name": "חקר ביצועים 1"
+    },
+    {
+        "language": "he",
+        "categoryName": "חקר ביצועים",
+        "name": "חקר ביצועים 2"
+    },
+    {
+        "language": "he",
+        "categoryName": "חקר ביצועים",
+        "name": "תורת המשחקים השיתופיים"
+    },
+    {
+        "language": "he",
+        "categoryName": "חקר ביצועים",
+        "name": "תורת המשחקים הלא שיתופיים"
+    },
+
+
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "מבוא להנדסת תעשייה"
+    },
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "חקר עבודה"
+    },
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "מדידת ביצועים"
+    },
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "ניהול פרויקטים"
+    },
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "משאבי אנוש"
+    },
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "שיווק"
+    },
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "ניהול ייצור והשרות"
+    },
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "תפעול ופיקוח על ייצור"
+    },
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "שרשראות אספקה"
+    },
+    {
+        "language": "he",
+        "categoryName": "תעשייה וניהול",
+        "name": "ניהול לוגיסטיקה"
+    },
+
+    
+    {
+        "language": "ru",
+        "categoryName": "Математика",
+        "name": "Алгебра"
+    },    
+    {
+        "language": "ru",
+        "categoryName": "Математика",
+        "name": "Геометрия"
+    },    
+    {
+        "language": "ru",
+        "categoryName": "Математика",
+        "name": "Высшая математика"
+    },    
+    {
+        "language": "ru",
+        "categoryName": "Математика",
+        "name": "Теория вероятностей"
+    }, 
+       
+    {
+        "language": "ru",
+        "categoryName": "Гуманитарные науки",
+        "name": "Русский язык"
+    },       
+    {
+        "language": "ru",
+        "categoryName": "Гуманитарные науки",
+        "name": "Литература"
+    }
+]
