@@ -5,18 +5,15 @@ const http = require("http").createServer(app);
 const cors = require("cors");
 const urlencodedParser = express.urlencoded({ extended: true });
 
-const { initSession } = require("./models/connect");
-const { socketMiddware } = require("./middleware/socket.middleware");
+const { initSession } = require("./models/connect"); 
 
 // controllers
 const teacherRouter = require("./routes/teacher.router");
 const feedbackRouter = require("./routes/feedback.router");
 const studentRouter = require("./routes/student.router");
-const serviceRouter = require("./routes/service.router");
-const payRouter = require("./routes/pay.router");
+const serviceRouter = require("./routes/service.router"); 
 const catalogRouter = require("./routes/catalog.router");
-const listsRouter = require("./routes/lists.router");
-const moderRouter = require("./routes/moder.router");
+const listsRouter = require("./routes/lists.router"); 
 
 app.set("view engine", "ejs");
 
@@ -30,11 +27,9 @@ app.use(urlencodedParser);
 app.use("/apiLearning", serviceRouter);
 app.use("/apiLearning", teacherRouter);
 app.use("/apiLearning", feedbackRouter);
-app.use("/apiLearning", studentRouter);
-app.use("/apiLearning", payRouter);
+app.use("/apiLearning", studentRouter); 
 app.use("/apiLearning", catalogRouter);
-app.use("/apiLearning", listsRouter);
-app.use("/apiLearning", moderRouter);
+app.use("/apiLearning", listsRouter); 
 
 const io = require("socket.io")(http, {
   path: `/socket.io/`,
@@ -43,8 +38,7 @@ const io = require("socket.io")(http, {
     methods: ["GET", "POST"],
   },
 });
-
-socketMiddware(io, app);
+ 
 
 http.listen(process.env.PORT, () =>
   console.log("Server started on port ", process.env.PORT)
